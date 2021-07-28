@@ -1,0 +1,405 @@
+@font-face {
+    src: url("fonts/MullerBlack.ttf");
+    font-family: MullerBlack;
+}
+@font-face {
+    src: url("fonts/MullerBold.ttf");
+    font-family: MullerBold;
+}
+@font-face {
+    src: url("fonts/MullerExtraBold.ttf");
+    font-family: MullerExtraBold;
+}
+@font-face {
+    src: url("fonts/MullerRegular.ttf");
+    font-family: MullerRegular;
+}
+
+body{
+    margin: 0;
+    font-family: MullerRegular, sans-serif;
+}
+
+
+/*СТИЛИ ДЛЯ ХЭДР*/
+#header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+}
+#header-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+/*стили для общего логотипа*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-size: 24px;
+    font-family: MullerBlack, sans-serif;
+    color: rgb(255, 196, 104);
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 85px;
+    margin-left: 8px;
+}
+/*стили верхнего меню*/
+#menu{
+    margin: 0 261px 0 248px;
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu a.menu-item{
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    text-decoration: none;
+}
+
+
+/*БЛОК MAIN*/
+#main-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*блок с информацией*/
+#main-info{
+    max-width: 622px;
+}
+#main-info h1{
+    margin: 0;
+    font-size: 45px;
+    font-family: MullerExtraBold, sans-serif;
+    color: rgb(185, 145, 80);
+    font-weight: bold;
+    line-height: 1.222;
+}
+#main-info h1 span{
+    color: #ffaf18;
+}
+/*блок с преимуществами*/
+#main-advantages{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.advantage{
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+.advantage .advantage-text{
+    margin-left: 16px;
+}
+.advantage .advantage-title{
+    font-size: 16px;
+    font-family: MullerExtraBold, sans-serif;
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.advantage .advantage-description{
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1;
+}
+/*общие стили для кнопки*/
+.btn{
+    background-color: rgb(255, 175, 24);
+    text-align: center;
+    font-size: 16px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+    padding: 22px;
+    box-sizing: border-box;
+}
+/*блок с кнопкой*/
+#main-action{
+    margin-top: 60px;
+}
+#main-action .btn{
+    width: 224px;
+    /*так как это ссылка*/
+    display: inline-block;
+}
+
+
+/*БЛОК PRODUCTS*/
+#products-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 161px;
+}
+#products-title{
+    font-size: 35px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+/*блок с карточками товаров*/
+#products-items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.product .product-title{
+    font-size: 18px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(56, 36, 0);
+    margin-top: 15px;
+}
+.product .product-text{
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin-top: 17px;
+}
+.product .product-button .btn{
+    width: 100%;
+    display: inline-block;
+    padding: 17px;
+    margin-top: 15px;
+}
+.product .product-image{
+    /*чтобы выровнять все карточки, высота самой высокой картинки из макета*/
+    height: 155px;
+}
+
+
+/*БЛОК ЗАКАЗ*/
+#order{
+    /*чтобы всё, что выходит за границы экрана, было спрятано, и скрол не появлялся*/
+    overflow: hidden;
+}
+#order-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    /*так как блок выровнен по нижнему краю*/
+    align-items: flex-end;
+}
+/*1 блок*/
+#order-text{
+    max-width: 384px;
+}
+#order-text #order-text-title{
+    font-size: 35px;
+    font-family: MullerExtraBold, sans-serif;
+    color: #b99150;
+    line-height: 1.286;
+}
+#order-text #order-text-title span{
+    color: rgb(255, 175, 24);
+}
+#order-text #order-text-message{
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    margin-top: 65px;
+}
+/*2 блок*/
+#order-form{
+    max-width: 330px;
+}
+#order-form input{
+    border: 1px solid rgb(185, 145, 80);
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    padding: 23px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+
+    font-size: 18px;
+}
+::placeholder{
+    color: rgb(203, 168, 110);
+}
+#order-form button.btn{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+/*3 блок*/
+#order-image{
+    /*отмеренная ширина картинки до того, как она вылазит из общего контейнера*/
+    width: 282px;
+    position: relative;
+}
+#order-image img{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+
+/*ФУТЕР*/
+#footer{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 14px 1px rgba(152, 152, 152, 0.2);
+}
+#footer-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+#footer-container #rights{
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+/*чтобы иконка меню для адаптив не была видна*/
+#burger{
+    display: none;
+}
+#menu svg{
+    display: none;
+}
+
+/*ВАЛИДАЦИЯ ФОРМЫ*/
+form .error-input{
+    font-size: 15px;
+    color: red;
+    display: none;
+    position: absolute;
+    top: -15px;
+}
+.input-block{
+    position: relative;
+}
+
+/*LOADER*/
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgb(255, 175, 24);
+    margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#loader{
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-valid{
+    display: none;
+    font-size: 50px;
+    font-family: MullerExtraBold, sans-serif;
+    color: rgb(255, 175, 24);
+    line-height: 1.286;
+    max-width: 300px;
+}

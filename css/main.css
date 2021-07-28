@@ -1,0 +1,185 @@
+@font-face {
+    src: url("fonts/Gilroy-Medium.ttf");
+    font-family: Gilroy-Medium;
+}
+@font-face {
+    src: url("fonts/Gilroy-Bold.ttf");
+    font-family: Gilroy-Bold;
+}
+
+body{
+    margin: 0;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+/*HEADER*/
+#header{
+    background: #f6b186;
+    padding: 30px;
+}
+#header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-container #lang{
+    display: flex;
+    justify-content: space-between;
+}
+#header-container #lang a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+#header-container #lang a:hover,
+#header-container #lang .active{
+    color: #262626;
+    border: 2px solid #262626;
+}
+
+#header-container #menu{
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+#header-container #menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fcfcfc;
+    border-bottom: 2px solid transparent;
+}
+#header-container #menu a:hover,
+#header-container #menu .active{
+    color: #262626;
+    border-bottom: 2px solid #262626;
+}
+
+/*MAIN CONTENT*/
+#main-content{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#about-me{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+#about-me-inf{
+    max-width: 600px;
+}
+#about-me-inf #name{
+    color: #262626;
+    font-size: 36px;
+    font-family: Gilroy-Bold, sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+#about-me-inf #prof{
+    color: #f6ac7e;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#about-me-inf .about-me-inf{
+    margin-bottom: 5px;
+}
+#about-me-inf .about-me-inf span,
+#about-me-inf #info span{
+    color: #262626;
+    font-size: 18px;
+    font-family: Gilroy-Bold, sans-serif;
+}
+
+#about-me-img img{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 2px grey;
+}
+
+/*BLOCK ABOUT SKILLS*/
+#my-skills{
+    margin: 50px auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+#my-skills .skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+#my-skills .skills-img img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+#my-skills .skills span{
+    color: #262626;
+    font-size: 18px;
+    font-family: Gilroy-Bold, sans-serif;
+    margin-bottom: 10px;
+}
+
+/*MY PROJECTS*/
+#projects{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#projects h1{
+    margin: 0;
+    letter-spacing: 3px;
+    padding: 50px 0;
+}
+
+#projects .card-style{
+    height: 250px;
+}
+#projects .card-body a{
+    text-decoration: none;
+    color: #262626;
+    font-family: Gilroy-Bold, sans-serif;
+}
+#projects .card-body a:hover{
+    color: #f6ac7e;
+}
+#projects .card-shadow:hover{
+    box-shadow: 0 0 10px 0 #f6ac7e;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+#footer{
+    background: #f6b186;
+    padding: 30px;
+    margin-top: 50px;
+}
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+#footer-container a:hover{
+    color: #262626;
+}
+
+#footer-container #social{
+    margin-top: 10px;
+}
+#footer-container #social img{
+    width: 40px;
+    margin-right: 10px;
+}

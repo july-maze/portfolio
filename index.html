@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="shortcut icon" href="css/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="header">
+    <div id="header-container">
+        <div id="lang">
+            <a href="index.html" class="active">RU</a>
+            <a href="indexEN.html">EN</a>
+        </div>
+        <div id="menu">
+            <a href="#about-me" class="active">Обо мне</a>
+            <a href="#projects">Мои работы</a>
+            <a href="#footer">Контакты</a>
+        </div>
+    </div>
+</div>
+<div id="main" class="container">
+    <div id="main-content">
+        <div id="about-me">
+            <div id="about-me-img" class="animate__animated animate__pulse">
+                <img src="css/images/photo1.png" alt="photo">
+            </div>
+            <div id="about-me-inf">
+                <div id="name">
+                    Ерохина Юлия Олеговна
+                </div>
+                <div id="prof">
+                    Web-разработчик
+                </div>
+                <div class="about-me-inf">
+                    <span>Дата рождения:</span>
+                    20 сентября 1997 г.
+                </div>
+                <div class="about-me-inf">
+                    <span>Город:</span>
+                    Минск
+                </div>
+                <div id="info">
+                    <span>Подробнее обо мне:</span>
+                    Раньше моя жизнь не была связана с IT. Я училась в БГУ на химическом факультете, позже я перешла на
+                    заочную форму образования в БГТУ по схожей специальности и параллельно работала в ресторанном
+                    бизнессе. <br>
+                    Это дало мне огромный опыт, разнообразные знакомства и высокую стрессоустойчивость.
+                    Тем не менее меня всегда привлекала IT-сфера, я много общалась с теми, кто уже работал в этом направлении,
+                    собирала информацию и пыталась понять, что из всего этого огромного спектра мне ближе.<br>
+                    Сначала я занималась сама, но в конечном счёте поняла, что эффективнее будет
+                    найти подходящие курсы. Я выбрала онлайн-школу "Айтилогия" и спустя 4 месяца плодотворного и
+                    насыщенного обучения наконец могу сказать, что я готова сделать шаг в сторону своей мечты.<br>
+                    Я понимаю, что это только начало моего пути, сейчас я нахожусь в поиске работы, изучаю коробочные CMS,
+                    такие как Tilda, Shopify. Интересно будет разобраться с Wordpress, Bitrix или чем-то подобным.<br>
+                    В дальнейшем я хочу совершенствовать свои навыки, разбираться в новых технологиях, изучить фронтенд-фреймворк,
+                    серверный язык программирования, базы данных и т.д.
+                    Также мне очень интересен дизайн, так как я обожаю творчество и всё, что с ним связано.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="my-skills" class="animate__animated animate__fadeInLeft">
+        <div class="skills">
+            <div class="skills-img">
+                <img src="css/images/skills.png" alt="skills">
+            </div>
+            <div class="skills-text">
+                <span>Мои навыки:</span>
+                HTML/CSS, Flex, Grid Layout, Adaptive, Bootstrap, jQuery, JavaScript, GIT, DOM, Font-awesome,
+                AJAX-запросы, Sass/Less, NPM, Gulp, Grunt.
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skills-img">
+                <img src="css/images/ling.png" alt="language">
+            </div>
+            <div class="skills-text">
+                <span>Владение языками:</span>
+                русский,  английский - средний, на уровне работы с технической документацией.
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skills-img">
+                <img src="css/images/program.png" alt="program">
+            </div>
+            <div class="skills-text">
+                <span>Знание программ:</span>
+                Adobe Photoshop, Figma, IDE (Notepad++, PhpStorm, Visual Studio Code), работа с консолью git.
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <h1>Примеры моих учебных проектов</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 card-shadow">
+                    <img src="css/images/pr1.jpg" class="card-img-top card-style" alt="Macaroon">
+                    <div class="card-body">
+                        <a href="project1/homework.html" target="_blank">
+                            <h5 class="card-title">Macaroon</h5>
+                        </a>
+                        <p class="card-text">
+                            Один из первых проектов с отработкой адаптивной верстки.
+                            При работе использовался flex, svg, элементы с абсолютным позиционированием.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 card-shadow">
+                    <img src="css/images/pr2.jpg" class="card-img-top card-style" alt="Shef">
+                    <div class="card-body">
+                        <a href="project2/index.html" target="_blank">
+                            <h5 class="card-title">Shef</h5>
+                        </a>
+                        <p class="card-text">
+                            Дипломный проект с отработкой php-формы, всплывающим popup-ом, валидацией формы, реализацией слайдера
+                            и интеграцией видео.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 card-shadow">
+                    <img src="css/images/pr3.jpg" class="card-img-top card-style" alt="Burger">
+                    <div class="card-body">
+                        <a href="project3/index.html" target="_blank">
+                            <h5 class="card-title">Burger club</h5>
+                        </a>
+                        <p class="card-text">
+                            Реализовано всплывающее окно с отправкой данных, подключен slick, добавлены отзывы клиентов.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 card-shadow">
+                    <img src="css/images/pr4.jpg" class="card-img-top card-style" alt="homework">
+                    <div class="card-body">
+                        <a href="project4/homework.html" target="_blank">
+                            <h5 class="card-title">Homework</h5>
+                        </a>
+                        <p class="card-text">
+                            Пошаговая валидация формы с уточнением, что именно нужно заполнить, во всплывающем окне.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 card-shadow">
+                    <img src="css/images/pr5.jpg" class="card-img-top card-style" alt="Pizza">
+                    <div class="card-body">
+                        <a href="project5/practice.html" target="_blank">
+                            <h5 class="card-title">Pizza</h5>
+                        </a>
+                        <p class="card-text">
+                            Иммитация сайта доставки пиццы с карточками товаров и формой для заказа.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 card-shadow">
+                    <img src="css/images/pr6.jpg" class="card-img-top card-style" alt="Wedding">
+                    <div class="card-body">
+                        <a href="project6/homework.html" target="_blank">
+                            <h5 class="card-title">Wedding photo</h5>
+                        </a>
+                        <p class="card-text">
+                            Лендинг с реализацией аккордеона с частыми вопросами, разными пакетами цен, подключение slick, jquery-ui.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div id="footer-container">
+        <div id="mail">
+            <a href="mailto:mega.erohina@bk.ru" target="_blank">mega.erohina@bk.ru</a>
+        </div>
+        <div id="social">
+            <a href="https://t.me/july_maze" target="_blank">
+                <img src="css/images/telegram.png" alt="telegram">
+            </a>
+            <a href="https://instagram.com/july_maze?utm_medium=copy_link" target="_blank">
+                <img src="css/images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://vk.com/found_myself" target="_blank">
+                <img src="css/images/vk.png" alt="vk">
+            </a>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>

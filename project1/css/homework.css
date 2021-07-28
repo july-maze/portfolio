@@ -1,0 +1,384 @@
+@font-face {
+    src: url("fonts/Gilroy-Bold.ttf");
+    font-family: Gilroy-Bold;
+}
+@font-face {
+    src: url("fonts/Gilroy-Extrabold.ttf");
+    font-family: Gilroy-Extrabold;
+}
+@font-face {
+    src: url("fonts/Gilroy-Medium.ttf");
+    font-family: Gilroy-Medium;
+}
+@font-face {
+    src: url("fonts/Gilroy-Regular.ttf");
+    font-family: Gilroy-Regular;
+}
+
+body{
+    margin: 0;
+    background: #eba8b1;
+    font-family: Gilroy-Regular, sans-serif;
+}
+
+/*ХЭДР*/
+#header-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 38px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@font-face {
+    src: url("fonts/Tavolga-free.ttf");
+    font-family: Tavolga-free;
+}
+.logo{
+    font-size: 18px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#menu{
+    margin: 0 328px 0 232px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu .menu-item{
+    font-size: 14px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(119, 11, 29);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+#menu .menu-item:hover{
+    border-bottom: 2px solid rgb(130, 19, 40);
+}
+#number{
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/*БЛОК 1*/
+#block-1-container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 145px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#block-1-info{
+    max-width: 585px;
+}
+#block-1-info h1{
+    font-size: 55px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    margin: 0;
+}
+#block-1-text{
+    font-size: 18px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    max-width: 345px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+  
+.btn{
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    padding: 21px 41px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    
+    font-size: 18px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+  
+#block-1-btn.btn{
+    width: 240px;
+    display: inline-block;
+}
+
+/*БЛОК 2*/
+#block-2{
+    background: #ffefef;
+}
+#block-2-container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 120px 0;
+}
+
+#block-2-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#block-2-info{
+    max-width: 550px;
+}
+#block-2-title{
+    font-size: 45px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    margin-bottom: 60px;
+}
+#block-2-text{
+    font-size: 18px;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 397px;
+}
+
+#block-2-advantages{
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.advantage{
+    max-width: 215px;
+}  
+.advantage .number{
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+        
+    font-size: 60px;
+    font-family: Gilroy-Extrabold, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-align: center;   
+}
+.advantage-title{
+    font-size: 20px;
+    font-family: Gilroy-Extrabold, sans-serif;
+    color: rgb(51, 25, 7);
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+.advantage-text{
+    font-size: 15px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+}
+
+/*3 БЛОК*/
+#block-3-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+#block-3-title{
+    font-size: 45px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+#block-3-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 259px;
+    text-align: center;
+}
+.product-image{
+    position: relative;
+}
+.product-image img{
+    position: absolute;
+    top: calc(50% - 55px);
+    left: calc(50% - 95px);
+}
+.product-name{
+    font-size: 18px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 110px;
+    text-align: center;
+}
+
+.product-info{
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.information span:last-child{
+    margin-top: 15px;
+    display: inline-block;
+}
+.product-btn .btn{
+    width: 130px;
+    display: inline-block;
+    padding: 14px 29px;
+}
+
+
+/*4 БЛОК*/
+#order{
+    background: #ffefef;
+}
+#order-container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 98px 0 120px 0;
+    display: flex;
+    align-items: flex-end;
+}
+#left-strawberry{
+    position: relative;
+}
+#left-strawberry img{
+    position: absolute;
+    bottom: 405px;
+    left: -35px;
+}
+
+/*блок с формой*/
+#order-form{
+    margin-left: 160px;
+    max-width: 406px;
+}
+#order-title{
+    font-size: 45px;
+    font-family: Tavolga-free, sans-serif;
+    color: rgb(51, 25, 7);
+    margin-bottom: 41px;
+}
+#order-text{
+    font-size: 18px;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 400px;
+    margin-bottom: 48px;
+}
+.input-info{
+    font-size: 18px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(18, 10, 6);
+    margin-bottom: 20px;
+}
+.order-input{
+    border: 1px solid rgb(130, 19, 40);
+    border-radius: 30px;
+    outline: 0;
+    width: 293px;
+    background: #ffefef;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+    font-size: 15px;
+    color: rgb(118, 12, 34);
+    font-family: Gilroy-Bold, sans-serif;
+}
+::placeholder{
+    color: rgb(118, 12, 34);
+}
+.margin{
+    margin-top: 25px;
+}
+#input-order .btn{
+    width: 294px;
+    display: inline-block;
+    padding: 19px 75px;
+}
+
+#right-strawberry{
+    position: relative;
+}
+#right-strawberry img{
+    position: absolute;
+    right: -10px;
+    top: -150px;
+}
+
+
+/*ФУТЕР*/
+#footer{
+    background: #c0707c;
+}
+#footer-container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 72px 15px 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-logo{
+    max-width: 170px;
+}
+#footer-logo span{
+    display: inline-block;
+    font-size: 12px;
+    color: #ffefef;
+    margin-top: 19px;
+}
+
+#footer-instagram{
+    max-width: 121px;
+    text-align: center;
+}
+#footer-instagram #instagram{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+#footer-number{
+    font-size: 16px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/*для иконки меню на адаптиве*/
+#burger{
+    display: none;
+}
+#menu svg{
+    display: none;
+}
+  
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+@media screen and (max-width: 1199px) {
+    #about-me-inf {
+        max-width: 450px;
+    }
+    #about-me {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #about-me{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #about-me-img{
+        order: 1;
+        margin-top: 40px;
+    }
+    #about-me-inf {
+        max-width: 600px;
+    }
+    #header-container #menu {
+        justify-content: space-evenly;
+    }
+    #my-skills{
+        flex-wrap: wrap;
+    }
+    #my-skills .skills:last-child{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #my-skills .skills:nth-child(2){
+        margin-top: 30px;
+    }
+    .row > *{
+        margin-left: calc(20% - 50px);
+        max-width: 400px;
+    }
+    #header-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #header-container #menu {
+        margin-top: 20px;
+    }
+    #projects h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #header-container #menu{
+        min-width: 400px;
+    }
+    #header-container #lang {
+        min-width: 140px;
+    }
+    #about-me-inf {
+        max-width: 400px;
+    }
+    #about-me-img img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    #about-me-inf {
+        max-width: 300px;
+    }
+    .row > * {
+        margin-left: calc(30% - 50px);
+        max-width: 250px;
+    }
+    #projects .card-style {
+        height: 170px;
+    }
+    #header-container #menu {
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 349px){
+    #header-container #menu {
+        max-width: 100px;
+        min-width: 150px;
+        flex-wrap: wrap;
+    }
+    #about-me-inf,
+    #my-skills .skills{
+        max-width: 250px;
+    }
+    #about-me-img img {
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
