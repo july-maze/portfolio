@@ -1,0 +1,1218 @@
+@media screen and (min-width: 1921px) {
+    #main{
+        background-size: 100%;
+        background-position: bottom center;
+    }
+    #advantages{
+        background-size: 100%;
+    }
+    #footer{
+        background-size: 100%;
+        background-position: bottom center;
+    }
+}
+
+/* - 1530, картинка замерщика*/
+@media screen and (max-width: 1530px) {
+    #order-image img{
+        left: 725px;
+    }
+}
+
+/* - 1395, картинка замерщика*/
+@media screen and (max-width: 1395px) {
+    #order-image{
+        width: 430px;
+    }
+    #order-image img{
+        max-width: 100%;
+        left: 785px;
+    }
+}
+
+/* - 1230*/
+@media screen and (max-width: 1230px) {
+    #order-image img{
+        position: static;
+    }
+    #order-image{
+        position: absolute;
+        z-index: -1;
+        right: calc(50% - 600px);
+        top: 150px;
+    }
+}
+
+/* - 1220*/
+@media screen and (max-width: 1220px) {
+    #header, #info, #advantages-container, #products-container, #section-container, #order, #footer-container {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    button.slick-next.slick-arrow{
+        left: 710px;
+    }
+    #section-list{
+        justify-content: space-evenly;
+    }
+}
+
+
+/* - 1190*/
+@media screen and (max-width: 1190px) {
+    .advantage.first{
+        right: -45px;
+    }
+
+    .product-image img{
+        width: 650px;
+        height: 400px;
+    }
+    button.slick-prev.slick-arrow{
+        top: 220px;
+    }
+    button.slick-next.slick-arrow{
+        left: 650px;
+        top: 225px;
+    }
+    .slick-dots{
+        top: 390px;
+        left: -205px;
+    }
+
+    .product-number{
+        font-size: 75px;
+        margin-bottom: 0;
+    }
+    .product-name {
+        font-size: 22px;
+        margin-bottom: 28px;
+    }
+    .desc-name, .desc-value, .product-property span {
+        font-size: 17px;
+    }
+
+    #order-image{
+        right: calc(50% - 550px);
+    }
+}
+
+/* - 1158*/
+@media screen and (max-width: 1158px) {
+    #order-block {
+        max-width: 480px;
+        margin-left: 80px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #order-block-title {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    #order-container{
+        margin-left: 50px;
+    }
+    #order-image {
+        right: calc(50% - 500px);
+        top: 292px;
+    }
+}
+
+/* - 1150*/
+@media screen and (max-width: 1150px) {
+    button.slick-next.slick-arrow {
+        left: calc(60% - 20px);
+    }
+}
+
+/* - 1140*/
+@media screen and (max-width: 1140px) {
+    #guaranty-container{
+        padding: 50px 20px 0 505px;
+        margin-bottom: 110px;
+    }
+    #guaranty-container #quote {
+        left: 440px;
+        top: 25px;
+    }
+    #guaranty-sign {
+        margin-left: 100px;
+    }
+
+    #section-list{
+        align-items: center;
+    }
+    #section-numbers .numbers-text{
+        margin-bottom: 100px;
+    }
+}
+
+
+/*768 - 1130
+@media screen and (max-width: 1130px) {
+    #guaranty-count div:first-child{
+        font-size: 150px;
+    }
+    #guaranty-count div:nth-child(2){
+        font-size: 60px;
+    }
+    #guaranty-count div:last-child{
+        font-size: 50px;
+    }
+    #guaranty-count{
+        max-width: 345px;
+        height: 290px;
+    }
+    #guaranty-orange{
+        max-width: 377px;
+        height: 320px;
+        top: -15px;
+    }
+    #guaranty-container #quote{
+        left: 395px;
+    }
+    #guaranty-text{
+        margin-left: -75px;
+    }
+    #guaranty-sign{
+        margin-left: 15px;
+    }
+    #guaranty-container{
+        max-width: 1027px;
+    }
+}
+*/
+
+
+/*768 - 1096
+@media screen and (max-width: 1096px) {
+    .second{
+        right: 40px;
+    }
+    .advantage.first{
+        right: -45px;
+    }
+
+    #section-list{
+        align-items: center;
+    }
+    #section-list-image img{
+        max-width: 550px;
+    }
+    #section-list dl{
+        max-width: 340px;
+    }
+
+    #section-numbers .numbers-text{
+        max-width: 220px;
+    }
+    .video{
+        max-width: 400px;
+        height: 275px;
+    }
+    #feedback-videos{
+        justify-content: space-evenly;
+    }
+}
+*/
+
+
+/*768 - 1070
+@media screen and (max-width: 1070px) {
+    #guaranty-count div:first-child{
+        font-size: 90px;
+    }
+    #guaranty-count div:nth-child(2){
+        font-size: 40px;
+    }
+    #guaranty-count div:last-child{
+        font-size: 35px;
+    }
+    #guaranty-count{
+        height: 260px;
+        max-width: 250px;
+        padding-bottom: 0;
+    }
+    #guaranty-orange {
+        max-width: 284px;
+        height: 289px;
+        top: -18px;
+    }
+    #guaranty-container #quote {
+        left: 300px;
+    }
+    #guaranty-text {
+        margin-left: -178px;
+        margin-bottom: -10px;
+    }
+    #guaranty-sign {
+        margin-left: -55px;
+    }
+    #guaranty-container {
+        max-width: 929px;
+        height: 250px;
+    }
+
+}
+ */
+
+/*1024 - 1080*/
+@media screen and (max-width: 1080px) {
+    #header .logo {
+        margin-right: 150px;
+    }
+
+    #advantages-title{
+        padding-top: 90px;
+    }
+    .second {
+        right: -18px;
+    }
+    .fourth {
+        right: -10px;
+    }
+
+    #products-title{
+        padding-top: 70px;
+    }
+    #section-list-image img{
+        max-width: 550px;
+    }
+
+    #guaranty-sign {
+        margin-bottom: 10px;
+    }
+
+    .video{
+        max-width: 400px;
+        height: 275px;
+    }
+    #feedback-videos{
+        justify-content: space-evenly;
+    }
+}
+
+/* - 1023*/
+@media screen and (max-width: 1023px) {
+    #header .logo {
+        margin-right: 100px;
+    }
+
+    #info #info-title {
+        font-size: 45px;
+    }
+    #info #info-slogan #info-slogan-text {
+        max-width: 435px;
+        font-size: 22px;
+    }
+    #info-icons{
+        right: 50px;
+    }
+    #info .btn{
+        margin-left: 90px;
+    }
+
+    .advantage {
+        max-width: 350px;
+    }
+    .third {
+        left: 75px;
+    }
+
+    .title, .title span {
+        font-size: 26px;
+    }
+    .title span{
+        margin-left: 30px;
+    }
+    .list-line img {
+        width: 70px;
+    }
+    #products-text{
+        font-size: 16px;
+        margin-left: 100px;
+    }
+
+    #products-list .product{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slick-dots {
+        left: -5px;
+    }
+    button.slick-prev.slick-arrow {
+        left: 185px;
+    }
+    button.slick-next.slick-arrow {
+        left: calc(80% - 10px);
+    }
+    .product-number{
+        margin-left: 90px;
+    }
+    .product-name{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .product-properties{
+        margin-top: 30px;
+    }
+
+    #section-numbers{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #section-numbers .numbers-text{
+        margin: auto 0;
+    }
+    #section-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    #section-list dl {
+        width: 410px;
+    }
+    #section-list-image img {
+        max-width: 500px;
+    }
+
+    #guaranty-text {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #guaranty-sign #guaranty-sign-text {
+        font-size: 14px;
+    }
+    #guaranty-count div:first-child {
+        font-size: 135px;
+    }
+    #guaranty-count div:nth-child(2) {
+        font-size: 60px;
+    }
+    #guaranty-count div:last-child {
+        font-size: 51px;
+    }
+    #guaranty-count{
+        max-width: 312px;
+        height: 270px;
+    }
+    #guaranty-orange{
+        height: 298px;
+        top: -20px;
+    }
+    #guaranty-container #quote {
+        left: 360px;
+        top: 15px;
+    }
+    #guaranty-container {
+        padding: 40px 20px 0 430px;
+    }
+    #guaranty-sign {
+        margin-left: 40px;
+    }
+    #guaranty-container{
+        min-height: 260px;
+    }
+    #feedback-text, #order-text {
+        font-size: 18px;
+        margin-left: 110px;
+    }
+
+    #order-block {
+        max-width: 380px;
+        margin-left: 0;
+    }
+    #order-container{
+        margin-left: 0;
+    }
+    #order-image {
+        right: calc(60% - 450px);
+        top: 303px;
+    }
+
+    #icons-container{
+        max-width: 125px;
+    }
+    #footer-place{
+        max-width: 200px;
+    }
+    #footer-time{
+        max-width: 150px;
+    }
+    #footer-phone span {
+        font-size: 18px;
+    }
+    #footer-allows {
+        margin-top: 30px;
+        padding-top: 35px;
+    }
+}
+
+/* - 940*/
+@media screen and (max-width: 940px) {
+    button.slick-next.slick-arrow {
+        left: calc(85% - 20px);
+    }
+    button.slick-prev.slick-arrow {
+        left: 135px;
+    }
+    #feedback-text{
+        margin-bottom: 50px;
+    }
+}
+
+/* - 900*/
+@media screen and (max-width: 900px) {
+    /* POPUP */
+    #reservation-container{
+        overflow: scroll;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    #form-image{
+        display: none;
+    }
+    #form-info{
+        margin-left: 55px;
+    }
+    #reservation{
+        max-width: 500px;
+        padding: 35px;
+    }
+    #reservation #form{
+        justify-content: center;
+        margin: 5px 0;
+    }
+    #reserve-button{
+        margin-top: 20px;
+    }
+}
+
+/* - 830*/
+@media screen and (max-width: 830px) {
+    #header .logo {
+        margin-right: 60px;
+    }
+
+    .advantage-number img{
+        width: 50px;
+    }
+    .first .advantage-number img{
+        width: 36px;
+    }
+    .advantage-caption {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .advantage-text {
+        font-size: 14px;
+        margin-bottom: 75px;
+    }
+    .advantage-text br{
+        display: none;
+    }
+    .advantage {
+        max-width: 300px;
+    }
+
+    .first .advantage-number{
+        top: -21px;
+        left: -22px;
+    }
+    .second .advantage-number {
+        top: -20px;
+        left: -35px;
+    }
+    .third .advantage-number {
+        left: -35px;
+        top: 0;
+    }
+    .fourth .advantage-number {
+        top: -15px;
+        left: -33px;
+    }
+
+    #products-title {
+        padding-top: 0;
+    }
+
+    button.slick-next.slick-arrow {
+        left: calc(89% - 10px);
+    }
+    button.slick-prev.slick-arrow {
+        left: 76px;
+        top: 225px;
+    }
+}
+
+/*580 - 777*/
+@media screen and (max-width: 777px) {
+    #guaranty-orange{
+        top: -7px;
+    }
+}
+
+/*580 - 767*/
+@media screen and (max-width: 768px) {
+    #info #info-title {
+        font-size: 40px;
+    }
+    #info-icons {
+        right: 15px;
+    }
+
+    .advantage.first {
+        right: -22px;
+    }
+    .third {
+        left: 40px;
+    }
+
+    #products-title {
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+    .title span {
+        margin-left: 20px;
+    }
+    #products-text{
+        margin-bottom: 15px;
+    }
+    button.slick-next.slick-arrow {
+        left: calc(93% - 10px);
+    }
+    button.slick-prev.slick-arrow {
+        left: 42px;
+    }
+
+    .section-number:first-child img{
+        width: 190px;
+    }
+    .section-number:nth-child(2) img{
+        width: 320px;
+    }
+    .section-number:last-child img{
+        width: 250px;
+    }
+
+    #section-list dd{
+        margin-bottom: 20px;
+    }
+    #section-list dt{
+        margin-bottom: 15px;
+    }
+
+    .feedback-video-title a{
+        margin: 16px 0 18px 0;
+    }
+    #order-text{
+        margin: 18px 0 23px 93px;
+    }
+    #order-image {
+        right: calc(60% - 435px);
+        top: 226px;
+    }
+
+    #guaranty-sign {
+        margin-left: -50px;
+    }
+
+}
+
+/*- 749*/
+@media screen and (max-width: 749px) {
+    #guaranty-orange {
+        top: -14px;
+    }
+    #order-image {
+        top: 257px;
+    }
+}
+
+/* - 731*/
+@media screen and (max-width: 731px){
+    #header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #header .logo {
+        margin-bottom: 30px;
+    }
+
+    .advantage {
+        max-width: 250px;
+    }
+    .advantage-text{
+        max-width: 250px;
+    }
+
+    #section-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    #guaranty-container {
+        max-width: 400px;
+        margin: 0 0 20px 150px;
+        padding: 330px 20px 10px 40px;
+    }
+    #guaranty-sign {
+        margin-left: -20px;
+    }
+    #guaranty-container #quote {
+        width: 30px;
+        left: 155px;
+        top: 320px;
+    }
+    #guaranty-orange {
+        top: 20px;
+        left: 177px;
+    }
+    #guaranty-count {
+        height: 235px;
+    }
+    #guaranty-orange {
+        height: 263px;
+    }
+
+    #order-flex{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #section {
+        margin-bottom: 500px;
+    }
+    #order-image {
+        top: 689px;
+        right: calc(60% - 300px);
+    }
+
+    #section-list{
+        margin-top: 30px;
+    }
+    #products-list {
+        margin-bottom: 50px;
+    }
+
+    #footer-container {
+        padding: 30px 20px;
+    }
+    #footer-place {
+        max-width: 300px;
+        order: 3;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    #footer-time {
+        max-width: 250px;
+        order: 4;
+        margin-right: 20px;
+    }
+    #logo-container{
+        order: 1;
+        margin-right: 20px;
+    }
+    #footer-phone{
+        order: 2;
+        margin-right: 20px;
+    }
+    #footer-info{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+    #logo-container .logo {
+        margin-bottom: 25px;
+    }
+}
+
+/* - 693*/
+@media screen and (max-width: 693px) {
+    #header{
+        padding-bottom: 100px;
+    }
+    #info-icons {
+        top: 520px;
+    }
+    .fourth {
+        top: 70px;
+    }
+    #order {
+        margin-top: 20px;
+    }
+    #feedback-title, #order-title {
+        align-items: flex-start;
+    }
+    #feedback-title .title {
+        margin-left: 25px;
+    }
+}
+
+/* - 682*/
+@media screen and (max-width: 682px) {
+    #order-image {
+        top: 736px;
+    }
+}
+
+/*580 - 650*/
+@media screen and (max-width: 650px) {
+    #guaranty-container{
+        margin-left: 80px;
+    }
+    #guaranty-container #quote {
+        left: 88px;
+    }
+    #guaranty-orange {
+        left: 108px;
+    }
+    #section-title {
+        margin-top: 30px;
+    }
+    #feedback-text{
+        margin: 20px 0 20px 80px;
+    }
+    #order-text{
+        margin-left: 65px;
+    }
+}
+
+/*480 - 579*/
+@media screen and (max-width: 579px) {
+    /* POPUP */
+    #reservation-container{
+        overflow: scroll;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    #reservation{
+        max-width: 320px;
+        padding: 35px;
+    }
+    #reservation #form{
+        justify-content: center;
+        margin: 5px 0;
+    }
+    #reserve-button{
+        margin-top: 20px;
+    }
+    #form input, #form .btn{
+        width: 270px;
+    }
+    #form-info{
+        margin-left: 0;
+    }
+
+    #burger{
+        display: block;
+    }
+    #header{
+        position: relative;
+        display: flex;
+        align-items: baseline;
+        padding-bottom: 60px;
+        padding-top: 45px;
+    }
+    #header .logo{
+        margin-left: 30px;
+    }
+    #menu{
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 3;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 50px 0;
+        display: none;
+    }
+    #menu a{
+        display: block;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    #header.menu-open{
+        background: rgba(0, 0, 0, 0.8);
+    }
+    #header.menu-open #menu{
+        display: block;
+    }
+
+    #info #info-title {
+        font-size: 39px;
+    }
+    #info #info-slogan #info-slogan-text {
+        max-width: 400px;
+        font-size: 20px;
+    }
+    #info .btn {
+         margin-left: 0;
+    }
+    #info-list{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #info-list ul {
+        width: 200px;
+        flex-wrap: wrap;
+    }
+    #info-list ul li{
+        margin: 20px;
+    }
+
+    #advantages-title {
+        align-items: flex-start;
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    #advantages-box{
+        justify-content: center;
+    }
+    .advantage {
+        max-width: 300px;
+        top: 0;
+        right: 0;
+    }
+    .advantage-text {
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+    #advantages {
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: left;
+    }
+
+    #products-text {
+        margin-left: 0;
+    }
+    .product-image img {
+        height: 300px;
+    }
+    button.slick-next.slick-arrow {
+        top: 172px;
+        left: calc(90% - 10px);
+    }
+    button.slick-prev.slick-arrow {
+        top: 172px;
+    }
+    .slick-dots {
+        top: 305px;
+    }
+
+    #section-title {
+        align-items: flex-start;
+    }
+
+    #section-list-image img {
+        max-width: 400px;
+    }
+
+    #guaranty-container {
+        margin-left: 30px;
+    }
+    #guaranty-orange {
+        left: 57px;
+    }
+    #guaranty-container #quote {
+        left: 37px;
+    }
+
+    #order-text{
+        margin-bottom: 45px;
+    }
+    #order-image {
+        top: 804px;
+        right: calc(60% - 265px);
+    }
+
+    #footer-place {
+        max-width: 200px;
+    }
+    #footer-time {
+        max-width: 150px;
+    }
+}
+
+/* - 469*/
+@media screen and (max-width: 469px) {
+    .product-image img {
+        height: 200px;
+    }
+    button.slick-next.slick-arrow {
+        top: 116px;
+    }
+    button.slick-prev.slick-arrow {
+        top: 110px;
+    }
+    .slick-dots {
+        top: 205px;
+    }
+    #order-image {
+        top: 850px;
+    }
+    #info-icons {
+        top: 670px;
+    }
+}
+
+
+/* - 450*/
+@media screen and (max-width: 450px) {
+    #info-list {
+        margin-top: 70px;
+    }
+    #section {
+        margin-bottom: 350px;
+    }
+    #order-image {
+        width: 300px;
+        top: 737px;
+        right: calc(60% - 170px);
+    }
+    form input {
+        width: 240px;
+    }
+    #order .btn {
+        width: 245px;
+    }
+    #order-block {
+        max-width: 280px;
+        padding: 15px 10px;
+    }
+
+    #order{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .title, .title span {
+        font-size: 23px;
+    }
+    .title span {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #order-text {
+        margin-left: 0;
+    }
+    .video {
+        max-width: 300px;
+        height: 220px;
+    }
+    #feedback-title .title span {
+        margin-left: 10px;
+    }
+    #feedback-text {
+        margin-left: 0;
+    }
+
+    #guaranty-count div:first-child {
+        font-size: 90px;
+    }
+    #guaranty-count div:nth-child(2) {
+        font-size: 50px;
+    }
+    #guaranty-count div:last-child {
+        font-size: 41px;
+        bottom: 16px;
+    }
+    #guaranty-count{
+        padding-left: 50px;
+        height: 212px;
+    }
+    #guaranty-orange {
+        left: 38px;
+        top: 13px;
+        height: 239px;
+    }
+    #guaranty-container {
+        margin-left: 10px;
+        padding-top: 270px;
+    }
+    #guaranty-sign #guaranty-sign-text {
+        font-size: 11px;
+    }
+    #guaranty-container #quote {
+        left: 17px;
+        top: 260px;
+    }
+
+    #section-list-image img {
+        max-width: 300px;
+    }
+    #section-list dl {
+        width: 280px;
+    }
+    .product-image img {
+        height: 160px;
+    }
+    button.slick-next.slick-arrow {
+        top: 110px;
+    }
+    button.slick-prev.slick-arrow {
+        top: 110px;
+        left: 19px;
+    }
+    .slick-dots {
+        top: 172px;
+        left: -3px;
+    }
+
+    .product-content {
+        width: 320px;
+        margin-left: 0;
+    }
+    .product-number {
+        margin-left: 0;
+    }
+    .product-name {
+        font-size: 20px;
+    }
+    .desc-name, .desc-value, .product-property span {
+        font-size: 13px;
+    }
+    .product-property span {
+        margin-left: 3px;
+    }
+
+    #info #info-title {
+        font-size: 33px;
+    }
+    #info #info-slogan #info-slogan-text {
+        font-size: 16px;
+    }
+    #info #info-slogan{
+        margin: 35px 0;
+    }
+    #info .btn{
+        width: 265px;
+    }
+    #info-icons {
+        top: 565px;
+    }
+
+    .advantage.first {
+        right: -6px;
+    }
+    .advantage.second {
+        right: -17px;
+    }
+    .third {
+        left: 20px;
+    }
+    .fourth {
+        left: 20px;
+    }
+
+    #products-title {
+        margin-top: 90px;
+    }
+
+    .list-line img {
+        width: 30px;
+    }
+    #logo-container .logo {
+        margin-bottom: 5px;
+    }
+    #footer-phone div:first-child {
+        margin-bottom: 12px;
+    }
+    #footer-place div:first-child, #footer-time div:first-child {
+        margin-bottom: 10px;
+    }
+    #footer-allows {
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    #footer-container {
+        padding: 10px 10px;
+    }
+    #logo-container .logo img{
+        width: 70px;
+    }
+    #footer-info {
+        justify-content: flex-start;
+        margin-left: 65px;
+    }
+    #footer-place {
+        margin-top: 20px;
+    }
+    #footer-phone {
+        margin-top: 10px;
+    }
+}
+
+/*320 - 430*/
+@media screen and (max-width: 430px) {
+    #guaranty-orange {
+        left: 25px;
+        top: 13px;
+        height: 239px;
+    }
+    #order-image {
+        top: 760px;
+    }
+}
+
+/*320 - 415*/
+@media screen and (max-width: 415px) {
+    #guaranty-orange {
+        left: 20px;
+        top: 2px;
+    }
+    #guaranty-count{
+    }
+}
+/*320 - 410*/
+@media screen and (max-width: 410px) {
+    #guaranty-orange {
+        left: 13px;
+    }
+}
+
+/*320 - 364*/
+@media screen and (max-width: 364px) {
+    #order-image {
+        top: 820px;
+    }
+    #info-icons {
+        top: 590px;
+    }
+}
+
+/*320 - 360*/
+@media screen and (max-width: 360px) {
+    #info-icons {
+        top: 620px;
+    }
+
+    /* POPUP */
+    #reservation-container{
+        padding-top: 10px;
+    }
+    #reservation{
+        max-width: 300px;
+        padding: 15px;
+    }
+}
+
+/*320 - 330*/
+@media screen and (max-width: 330px) {
+    #guaranty-count {
+        padding-left: 30px;
+    }
+    #info-icons {
+        top: 640px;
+    }
+}
+
+
+
+
