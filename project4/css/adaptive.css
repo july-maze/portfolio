@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) {
+    body{
+        background: #FFFFFB;
+    }
+    #right-block{
+        display: none;
+    }
+    #left-block{
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #title h1{
+        font-size: 26px;
+    }
+    #subtitle{
+        font-size: 18px;
+    }
+    .input span{
+        display: block;
+    }
+    .input input{
+        max-width: 350px;
+    }
+    #left-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #left-block {
+        max-width: 280px;
+    }
+    .input input{
+        max-width: 250px;
+    }
+}
+
+

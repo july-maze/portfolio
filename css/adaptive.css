@@ -70,14 +70,20 @@
         max-width: 300px;
     }
     .row > * {
-        margin-left: calc(30% - 50px);
-        max-width: 250px;
+        margin-left: calc(25% - 50px);
+        max-width: 300px;
     }
     #projects .card-style {
         height: 170px;
     }
     #header-container #menu {
         min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .row > * {
+        margin-left: calc(20% - 50px);
     }
 }
 

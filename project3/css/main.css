@@ -514,6 +514,7 @@ body{
 }
 
 #reservation{
+    margin: 0 auto;
     border: 1px solid rgb(63, 63, 63);
     border-radius: 10px;
     background-color: transparent;

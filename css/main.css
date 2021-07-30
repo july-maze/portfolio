@@ -14,7 +14,7 @@ body{
 
 /*HEADER*/
 #header{
-    background: #f6b186;
+    background: #f8ba93;
     padding: 30px;
 }
 #header-container{
@@ -133,6 +133,7 @@ body{
     margin: 0 auto;
     max-width: 1200px;
 }
+
 #projects h1{
     margin: 0;
     letter-spacing: 3px;
@@ -157,7 +158,7 @@ body{
 
 /*FOOTER*/
 #footer{
-    background: #f6b186;
+    background: #f8ba93;
     padding: 30px;
     margin-top: 50px;
 }
